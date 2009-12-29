@@ -6,3 +6,8 @@ Processing Rails::InfoController#properties (for 127.0.0.1 at 2009-12-29 10:58:4
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
 Completed in 111ms (View: 26, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2009-12-29 22:30:01) [GET]
+Rendering pages/home
+Completed in 89ms (View: 87, DB: 0) | 200 OK [http://localhost/pages/home]
