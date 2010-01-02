@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="brentg-org">
+
+<head>
+	<meta charset="utf-8" />
+  	<title>Ruby on Rails Tutorial Sample App | <%= @title %></title>
+  	<%= stylesheet_link_tag 'screen', :media => 'screen,projection' %>
+	<%= stylesheet_link_tag 'print', :media => 'print' %>
+</head>
+
+<body id="<%= @bodyid %>" class="<%= controller.action_name %>">
+	<header id="branding">
+
+	</header>
+	<nav>
+		<ul>
+	    	<li>
+				
+		  	</li>
+			<li>
+				
+		  	</li>
+			<li>
+			
+			</li>
+	    </ul>
+	</nav>
+	<section id="flash">
+		<p>
+			<%= flash[:notice] %>
+		</p>
+	</section>
+	<section id="content">
+		<%= yield %>
+	</section>
+	<footer>
+	</footer>
+</body>
+
+</html>
